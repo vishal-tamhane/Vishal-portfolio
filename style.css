@@ -1,3 +1,11 @@
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -278,7 +286,7 @@ body > div.edu > div{
 }
 
 #Home{
-  background-image: url(./background.jpg);
+  background-image: url(./images/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
