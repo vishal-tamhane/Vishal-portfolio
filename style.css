@@ -1,0 +1,343 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #201d1d;
+}
+#about-content{
+display: grid;
+width: 40%;
+padding: 15px;
+margin: 10px;
+grid-template-columns: 1fr ;
+justify-content: center;
+}
+#about{
+  margin: 10px;
+}
+
+
+header {
+    color: #161010;
+    padding: 1rem 0;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: flex-end;
+}
+#foot{
+  margin: 0;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: #010101;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+#contact{
+  display: flex;
+  color: white;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#foot> a{
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.about-content{
+  display: flex;
+  flex-direction: column;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+body > header > div > nav > ul > li>a{
+  color: black;
+}
+#Skill{
+  margin: 10px;
+  padding: 10px;
+}
+body > div.main > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > div.main > div > p{
+  font-size: 1.1em;
+}
+header{
+  position: fixed;
+  width: 100%;
+  color: black;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  text-decoration-color: #201d1d;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background:linear-gradient(180deg ,#bdb376,#9f0e5b) ;*/
+    background-color: antiquewhite;
+    color:#010101;
+}
+
+@media (max-width: 680px) {
+  .info {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+/*About me page*/
+.main {
+    height: 500px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    color: rgb(20, 27, 27);
+    background-color: #03346E;
+    color: #E2E2B6;
+}
+
+.tile-image {
+    width: 50%;
+    max-width: 300px;
+    margin-right: 20px;
+    text-align:center ;
+    border-radius: 50%;
+    float: left;
+    height: 300px;
+}
+  
+.card {
+  display: flex;
+  flex:3;
+    width: 100%;
+    
+  }
+  
+.left {
+    float: left;
+}
+
+@media (max-width: 680px) {
+   
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  
+    .card img {
+      margin-bottom: 10px;
+      width: 50%;
+      display: inline;
+      object-fit: cover;
+    }
+}
+  /*Education page*/
+.edu {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #6EACDA;
+    color: #021526;
+    
+}
+body > div.edu > div{
+  justify-content: center;
+  align-items: center;
+}
+.image2 {
+    width: 40%;
+    max-width: 200px;
+    margin-right: 20px;
+    height: 200px;
+    
+}
+
+.edu_content {
+    flex: 1;
+}
+@media (max-width:700px){
+    .container{
+        flex-direction: row-reverse;
+        text-align: center;
+    }
+    .image{
+        margin: 0 2px 20px 0;
+        width: 100%;
+    }
+}
+
+/* ABOUT MY SKILLS*/
+.skill {
+  margin: 0;
+  background-color: #E2E2B6;
+  color: #021526;
+  
+}
+
+.image3 {
+  width: 50%;
+  max-width: 300px;
+  margin-right: 20px;
+  text-align:center ;
+  border-radius: 50%;
+  float: right;
+  height: 300px;
+  
+}
+
+.skill_content {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+  
+}
+
+.left {
+  float: left;
+}
+
+
+
+@media (max-width: 680px) {
+ 
+
+  .skill_content {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .image3 {
+    margin-bottom: 10px;
+    width: 50%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+.card-title{
+  font-size:2.5em ;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  padding: 20px;
+  margin: 10px;
+}
+
+#Home{
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ABOUT PROJECT */
+.project{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  margin: 10px;
+  background-color: #6EACDA;
+  color: #03346E;
+}
+#Project{
+  align-items: center;
+  justify-content: center;
+}
+#Project > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+}
+.image4{
+  
+  width: 400px;
+  height: 400px;
+  margin-top : 50px ;
+ 
+}
+.p_project{
+      margin: 0 5rem 0 5rem;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg , rgb(232, 217, 197),rgb(189, 169, 142));
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#About > img{
+  margin: 30px;
+  position: relative;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
